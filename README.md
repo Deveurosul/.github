@@ -12,7 +12,20 @@ O GitHub usa os arquivos deste repositório como fallback para qualquer outro re
 
 ## O padrão
 
-A estrutura do corpo e a regra do título (Conventional Commits) estão documentadas em `padroes/pull-request.md` do catálogo de soluções, que é a fonte de verdade. Alterou aqui, alinhe lá.
+A estrutura do corpo e a regra do título (Conventional Commits) seguem o padrão de Pull Request da
+conta. A fonte de verdade fica no ferramental interno, e alterar aqui exige alinhar lá.
+
+## O que nunca entra aqui
+
+Este repositório é público, e o GitHub exige que seja público para os arquivos padrão valerem nos
+outros repositórios, inclusive os privados. Portanto:
+
+- Nada de nome de cliente em contexto interno, host interno, URL interna ou nome de repositório
+  privado.
+- Nada de credencial, token, identificador ou caminho de máquina.
+- Nada de dado pessoal, perfil ou nota de processo.
+
+Só conteúdo genérico: template, texto de processo e política de contribuição.
 
 ## Manutenção
 
