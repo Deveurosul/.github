@@ -1,8 +1,23 @@
-## Problema
-<!-- Uma ou duas frases: o que estava errado ou faltando. Cite a issue (#123). -->
+## Solicitação aprovada
+<!-- O pedido como foi aprovado e o motivo, com a evidência (print, erro, número). Issue resolvida inteira: `Closes #123`; parte: cite sem a palavra-chave. -->
 
-## O que foi feito
-<!-- Até 4 itens, um por mudança, com o commit (SHA curto) ao lado. -->
+## O que muda
+<!-- Um item por arquivo ou mudança: o caminho e o que mudou nele, com o commit (SHA curto) quando ajudar. -->
 
-## Como conferir
-<!-- O comando ou o passo, e o resultado esperado. Se houver risco, diga em meia linha. -->
+## Como testar
+<!-- Passos numerados, com o resultado esperado. Depois, a validação rodada (teste, typecheck, build, lint) com a saída resumida, e o que não foi conferido. -->
+
+## Risco e rollback
+<!-- O risco, o efeito colateral e como voltar (ex.: `git revert` do commit). Sem risco: "nenhum", com o motivo em meia linha. -->
+
+## Decisões
+<!-- Só se houver. Cada escolha com o motivo e a alternativa descartada. Sem decisão, apague a seção. -->
+
+## Revisão
+<!-- Só se houve revisão de código. Corrigido e Ignorado, cada item com o motivo. Sem revisão, apague a seção. -->
+
+## Checklist
+- [ ] Teste novo escrito antes do código e visto falhando, quando há lógica nova
+- [ ] Teste, typecheck e build passando
+- [ ] Sem segredo e sem travessão no diff; migration, se houver, commitada e imutável
+- [ ] Teste na tela, por quem pediu
