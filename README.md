@@ -1,6 +1,6 @@
 # .github
 
-Arquivos padrão de comunidade da conta: template de Pull Request para todos os repositórios.
+Arquivos padrão de comunidade da conta: template de Pull Request e política de segurança para todos os repositórios.
 
 Repositório público que guarda os arquivos padrão da conta. O GitHub usa os arquivos deste repositório como fallback para os demais repositórios da conta que não têm os seus próprios.
 
@@ -17,11 +17,13 @@ O GitHub exige que este repositório seja público para que os arquivos padrão 
 Não há comando. Os arquivos deste repositório valem automaticamente:
 
 - o `.github/pull_request_template.md` preenche o corpo de toda PR nova em repositório da conta que não tem template próprio;
-- repositório com `.github/pull_request_template.md` próprio continua usando o dele.
+- o `.github/SECURITY.md` aparece na aba Security de todo repositório da conta que não tem o seu;
+- repositório com arquivo próprio continua usando o dele.
 
 | Arquivo | Efeito |
 |---|---|
 | `.github/pull_request_template.md` | preenche o corpo de toda PR nova que não tenha template local |
+| `.github/SECURITY.md` | política de segurança e regras básicas de segredo, para todo repositório sem a sua |
 
 ## Maintainers
 
