@@ -1,5 +1,7 @@
-## Solicitação aprovada
-<!-- O pedido como foi aprovado e o motivo, com a evidência (print, erro, número). Issue resolvida inteira: `Closes #123`; parte: cite sem a palavra-chave. -->
+<!-- Uma linha ou um parágrafo curto, em linguagem simples e sem negrito: o problema que se via e o que muda. Tudo em primeira pessoa ("corrigi", "testei"). -->
+
+## Por que
+<!-- O problema ou o motivo, com a evidência (print, erro, número). Issue resolvida inteira: `Closes #123`; parte: cite sem a palavra-chave. -->
 
 ## O que muda
 <!-- Um item por arquivo ou mudança: o caminho e o que mudou nele, com o commit (SHA curto) quando ajudar. -->
