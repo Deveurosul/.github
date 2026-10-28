@@ -1,3 +1,6 @@
+<!-- Só se o PR pede ação na produção depois do merge (migration, workflow, deploy, configuração): a linha abaixo, e o título termina em " [produção]". Sem ação na produção, apague a linha. -->
+🚩 Produção: depois do merge, <o que fazer e onde>.
+
 <!-- Uma linha ou um parágrafo curto, em linguagem simples e sem negrito: o problema que se via e o que muda. Tudo em primeira pessoa ("corrigi", "testei"). -->
 
 ## Por que
