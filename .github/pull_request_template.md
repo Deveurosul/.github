@@ -1,3 +1,6 @@
+<!-- Sempre, em todo PR: sim quando o PR traz migration de banco a rodar na produção depois do merge, não quando não traz. -->
+Migration para rodar: <sim ou não>
+
 <!-- Só se o PR pede ação na produção depois do merge (migration, workflow, deploy, configuração): a linha abaixo, e o título termina em " [produção]". Sem ação na produção, apague a linha. -->
 🚩 Produção: depois do merge, <o que fazer e onde>.
 
